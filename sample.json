@@ -1,0 +1,29 @@
+{
+    "header":{
+        "identification":"S*",
+         "messageNumber":"75",
+         "errorField":"00",
+         "messageSource":"PL10",
+         "messageDestination":"FAST"
+
+    },
+    "userProcessData":{
+        "zone":"E002",
+        "fromPosition":"****",
+        "toPosition":"****",
+        "code":"0018",
+        "pk1":"****",
+        "pk2":"****",
+        "triggerIdentification":"**",
+        "fromAisleCoordinate":"***",
+        "fromXcoordinate":"***",
+        "fromYcoordinate":"***",
+        "fromZcoordinate":"***",
+        "toAisleCoordinate":"***",
+        "toXcoordinate":"***",
+        "toYcoordinate":"***",
+        "toZcoordinate":"***",
+        "info1":"******",
+        "info2":"********************"
+    }
+}
