@@ -1,0 +1,29 @@
+{
+    "header":{
+        "identification":"",
+         "messageNumber":"",
+         "errorField":"",
+         "messageSource":"",
+         "messageDestination":""
+
+    },
+    "userProcessData":{
+        "zone":"",
+        "fromPosition":"",
+        "toPosition":"",
+        "code":"",
+        "pk1":"",
+        "pk2":"",
+        "triggerIdentification":"",
+        "fromAisleCoordinate":"",
+        "fromXcoordinate":"",
+        "fromYcoordinate":"",
+        "fromZcoordinate":"",
+        "toAisleCoordinate":"",
+        "toXcoordinate":"",
+        "toYcoordinate":"",
+        "toZcoordinate":"",
+        "info1":"",
+        "info2":""
+    }
+}
