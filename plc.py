@@ -23,6 +23,7 @@ from pymodbus.compat import iteritems
 # Instantiate the client for your modbus slave device. Change this to your 
 # desired IP and Port.
 mbclient = ModbusClient('127.0.0.1', port=5020)
+#20001
 
 # avoid root permissions.
 logger = logging.getLogger(__name__)
@@ -51,7 +52,7 @@ def poll_telemetries():
             # publish results to topic in AWS IoT
             for name, value in iteritems(decoded):
                 client.publish(topic='dt/plc1/telemetry', payload=json.dumps({ 'message': value}))
-        except Exception, e:
+        except Exception as e:
             logging.info("Error: {0}".format(str(e)))
 
         time.sleep(5)
